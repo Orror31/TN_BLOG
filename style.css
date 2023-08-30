@@ -11,3 +11,18 @@
     font-family: 'Alkatra', cursive;
     text-shadow: 1px 1px 2px #000;
 }
+nav{
+    background-image: linear-gradient(rgb(73, 90, 99) ,rgb(157, 157, 157));
+    box-shadow: 1px 1px 2px #d3cdcd;
+}
+ul .active{
+    background-color: gray!important;
+}
+.post h6{
+    margin-left: 32px;
+    font-size: 10px;
+}
+.post{
+    box-shadow: 1px 1px 2px rgb(157, 157, 157);
+    padding: 1px;
+}
