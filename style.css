@@ -22,7 +22,90 @@ ul .active{
     margin-left: 32px;
     font-size: 10px;
 }
-.post{
+.story{
     box-shadow: 1px 1px 2px rgb(157, 157, 157);
-    padding: 1px;
+    padding: 10px;
+}
+.phone{
+    width: 800px;
+    height: 760px;
+    margin-bottom: 400px;
+    margin-left: 20px;
+}
+body{
+    background-color: #fff!important;
+}
+.container{
+    margin-top: 20px;
+}
+.right-column{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 10px;
+    padding: 40px;
+}
+
+.info{
+    font-weight: 600px;
+    line-height: 20px;
+    font-size: 17px;
+    color: #999;
+}
+.right-column a{
+    text-decoration: none;
+}
+h6 img{
+    height: 18px !important;
+    padding: 0 8px 2px;
+}
+.or{
+    font-size: 13px!important;
+    color: #999;
+    font-weight: 600px;
+}
+.or::before{
+    content: '';
+    background: #cccccc;
+    display: block;
+    height: 1px;
+    width: 110px;
+    position: relative;
+    top: 11px;
+}
+.or::after{
+    content: '';
+    background: #cccccc;
+    display: block;
+    height: 1px;
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+    left: 160px;
+}
+
+.profile{
+    width:270px;
+}
+.button{
+    width: 270px;
+}
+::placeholder{
+    font-size: 12px;
+}
+.right-column-login{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    margin: 10px;
+    padding: 20px;
+}
+.right-column-login a{
+    text-decoration: none;
+}
+.container-fluid{
+    margin-top: 50px;
+}
+h1{
+    font-family:'Alkatra' ;
 }
